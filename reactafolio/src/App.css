@@ -1,38 +1,320 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(68, 102, 129);
+  color: rgb(183, 209, 218);
+}
+section {
+  padding: 25px 10px;
+}
+
+.section-title {
+  font-size: 35px;
+  margin-bottom: 16px;
+  margin: 0 auto 35px auto;
+  width: 50%;
+  float: left;
+  border-right: 3px solid;
+  padding-bottom: 20px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, .5);
+
+}
+
+.section-title-2 {
+  font-size: 35px;
+  margin-bottom: 16px;
+  margin: 0 auto 35px auto;
+  width: 50%;
+  float: left;
+  border-right: 3px solid;
+  padding-bottom: 1000px;
+}
+
+/* HEADER */
+
+header {
+  text-align: center;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  background: black;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+  border-bottom: rgb(113, 255, 248)2px solid;
+}
+
+header h1 {
+  font-weight: lighter;
+  margin: 0;
+  font-size: 36px;
+  text-shadow: 0 0 2.5px rgba(0, 0, 0, .5);
+  color: rgb(113, 255, 248);
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(113, 255, 248);
+  border-bottom: rgb(113, 255, 248) 2px solid;
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  margin: 0 15px;
+  font-weight: lighter;
+  font-size: 1.5vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  background: rgb(0, 0, 0);
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+/* ABOUT ME */
+.intro {
+}
+
+.flex-row {
+  text-align: center;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+  text-shadow: 0 0 10px rgba(0, 0, 0, .5);
+
+}
+
+.flex-row p {
+  font-size: 12px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, .5);
+
+}
+
+/* WORK */
+
+.work {
+  padding-top: 0;
+  float: left;
+  text-shadow: 0 0 10px rgba(0, 0, 0, .5);
+
+}
+
+
+
+.Project {
+  position: relative;
+  width: 47%;
+  margin: 4px 0;
+  opacity: .50;
+  float: right;
+  border: 3px solid;
+  border-radius: 10px;
+  justify-content:center;
+}
+
+.Project:hover {
+  opacity: 1;
+}
+
+.Project img {
+  object-fit: contain;
+  width: 100%;
+  border: solid 5px;
+  border-color: black;
+  border-radius: 5%;
+  text-shadow: 0 0 10px rgba(0, 0, 0, .5);
+
+}
+
+.Project-text {
+  top: 50%;
+  left:  16px;
+  padding: 20px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, .5);
+
+}
+
+.Project-text h3 {
+
+}
+
+.Project-text p {
+
+}
+
+.work .Project:nth-child(1) {
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.work .Project:nth-child(1) img {
+  width: 100%;
+  border-radius: 3%;
+  border-width: 1.5;
+}
+
+/* CONTACT */
+.contact {
+  padding: 20px;
+}
+
+.contact-flex {
+  justify-content: space-between;
+}
+
+.contact-text h3 {
+  margin: 10px;
+  padding: 25px;
+  float: left;
+  text-shadow: 0 0 10px rgba(0, 0, 0, .5);
+
+}
+
+.contact-text p {
+  margin:  10px;
+  padding: 10px;
+  float: left;
+  color: rgb(183, 209, 218);
+  border-radius: 15%;
+  border-bottom: rgba(183, 209, 218, .75) 0.5px solid;
+  text-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+/* FOOTER */
+
+footer {
+  padding: 40px 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .5);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+footer h2 {
+  font-size:  25px;
+  margin: 0;
+  text-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+footer img {
+  width: 10%;
+  padding: 3px;
+  border-radius: 5%;
+}
+
+.github {
+  margin: 10px;
+  width: 5%;
+}
+
+footer div {
+  line-height: 1.5;
+  text-align: center;
+  width: 100%;
+}
+
+footer a {
+  width: 3px;
+}
+
+/* Media Queries*/
+@media screen and (max-width: 980px) {
+  header {
+      padding-bottom: 0;
+      position: relative;
+  }
+
+  header h1 {
+      text-align:center;
+  }
+
+  header nav ul{
+      width:100%;
+      justify-content:center;
+  }
+
+  header nav ul li a {
+      font-size: 15px;
+  }
+
+  footer h2, footer div {
+      text-align: center;
+      width: 100%;
+  }
+  .Project {
+      width: 47%;
+  }  
+  
+}
+
+@media screen and (max-width:768px) {
+  section {
+      padding: 30px 15px;
+  }
+  .section-title {
+      padding-bottom: 50px
+  }
+
+  .work .Project:nth-child(1) {
+      width:auto
+  }
+  
+  .work {
+      width:100%;
+
+  }
+  .Project {
+      width: 45%;
+  }   
+  .section-title-2 {
+      padding-bottom: 740px
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 575px) {
+  header h1 {
+      font-size: 20px;
   }
-  to {
-    transform: rotate(360deg);
+  .section-title {
+      padding-bottom: 70px
   }
+
+  .section-title-2 {
+      padding-bottom: 1180px
+  }
+  section {
+      padding: 5px
+  }
+
+  .work {
+      padding: 5px
+  }
+
+  .Project {
+      width: 100%
+  }   
 }
