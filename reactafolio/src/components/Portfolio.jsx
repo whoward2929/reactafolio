@@ -9,8 +9,7 @@ const Portfolio = () => {
             <h2 class="section-title">About Me</h2>
             <div class="flex-row">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Molestiae, maxime sit consectetur doloribus nemo earum tempore dicta! Laborum doloremque odit recusandae, veniam fuga labore, nostrum officia deserunt maxime iste ad?
+                Full Stack Web Developer with a passion for developing exceptional online user experiences. Earned a certificate in full stack web development through the University of Central Florida. Proficient in both frontend and backend technologies such as: HTML, CSS, JavaScript, Node.js, and React. Great at learning new technologies quickly and excel in fast paced, collaborative work environments.
                 </p>
             </div>
         </section>
