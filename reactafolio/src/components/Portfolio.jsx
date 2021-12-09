@@ -1,5 +1,7 @@
 import React from 'react'
-
+import Betsboard from '../assets/Betsboard.png'
+import PWG from '../assets/PWG.png'
+import PF from '../assets/PF.png'
 const Portfolio = () => {
     return (
         <>
@@ -23,17 +25,18 @@ const Portfolio = () => {
                     
                     <div class="Project-text">
                         <h3>Password Generator</h3>
+                        <img src={PWG} alt="placeholder"/>
                         <p>Randomizing passwords through code</p>
                     </div>
                     </a>
                 </div>
-                <div class="Project">
-                    <a href="www.google.com" target="_blank" rel="noreferrer">
-                        <img src="./assets/images/itadori.jpeg" alt="placeholder"/>
-                    </a>
+                <div class="My first website">
+                    <img src={PF} alt="placeholder" style={{height: "150px"}}/>
+
+                    
                     <div class="Project-text">
-                        <h3>lorem ipsum</h3>
-                        <p>lorem ipsum</p>
+                        <h3>My First Website</h3>
+                        <p>Pink Floyd Fanpage</p>
                     </div>
                 </div>
                 <div class="Project">
@@ -47,7 +50,7 @@ const Portfolio = () => {
                 </div>
                 <div class="Project">
                     <a href="https://gracekevin.github.io/Betsboard/" target="_blank" rel="noreferrer">
-                        <img src="./assets/images/BetsBoard.png" alt="Bestboard"/>
+                        <img src={Betsboard} alt="Bestboard"/>
                     </a>
                     <div class="Project-text">
                         <h3>Group Project</h3>

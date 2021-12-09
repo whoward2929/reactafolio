@@ -1,5 +1,6 @@
 import React from "react";
-
+import LI from '../assets/LI.png'
+import GHL from '../assets/GHL.png'
 function Footer() {
   return (
     <footer>
@@ -8,12 +9,12 @@ function Footer() {
                 {/* <!--  Linkedin Link --> */}
                 <a href="https://www.linkedin.com/in/william-howard-160187b2/" target="_blank" rel="noreferrer">
                     {/* <!-- https://brand.linkedin.com/downloads--> */}
-                    <img src="./assets/images/LI-Logo.png" alt="Linkedin logo."/>
+                    <img src={LI} alt="Linkedin logo." style={{height:"50.34px", width: "50.34px"}}/>
                 </a>
                 {/* <!-- https://github.com/logos for Logo download --> */}
                 <a href="https://github.com/whoward2929" target="_blank" rel="noreferrer">
                     {/* <!-- https://www.freepnglogos.com/images/512x512-logo-27148.html --> */}
-                    <img src="./assets/images/GitHub-Mark-Light-120px-plus.png" class="github" alt="Github." />
+                    <img src={GHL} class="github" alt="Github." style={{height:"50.34px", width: "50.34px"}}/>
                 </a>
             </div>
         </footer>
