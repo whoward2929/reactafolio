@@ -8,17 +8,17 @@ const Portfolio = () => {
         {/* //  <div class="portfolio"> */}
         
         <section id="about" class="intro">
-            <h2 class="section-title">About Me</h2>
+            <h2 class="section-title"></h2>
             <div class="flex-row">
                 <p>
-                Full Stack Web Developer with a passion for developing exceptional online user experiences. Earned a certificate in full stack web development through the University of Central Florida. Proficient in both frontend and backend technologies such as: HTML, CSS, JavaScript, Node.js, and React. Great at learning new technologies quickly and excel in fast paced, collaborative work environments.
+                I am a Full Stack Web Developer with a passion for developing exceptional online user experiences.I Earned a certificate in full stack web development through the University of Central Florida. I have worked with both frontend and backend technologies such as: HTML, CSS, JavaScript, Node.js, and React. I am great at learning new technologies quickly and excel in fast paced, collaborative work environments.
                 </p>
             </div>
         </section>
 
         
         <section id="work" class="work">
-            <h2 class="section-title-2">Completed Projects</h2>
+            <h2 class="section-title-2"></h2>
             <div class="flex-row">
                 <div class="Project">
                     <a href="https://whoward2929.github.io/password-generator/" target="_blank" rel="noreferrer" >
